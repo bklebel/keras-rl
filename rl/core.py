@@ -7,7 +7,7 @@ import numpy as np
 from keras.callbacks import History
 
 from rl.callbacks import TestLogger, TrainEpisodeLogger, TrainIntervalLogger, Visualizer, CallbackList
-import util
+import rl.util as util
 
 import multiprocessing
 
